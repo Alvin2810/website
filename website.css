@@ -1,0 +1,233 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-top: -10px;
+
+}
+
+/* Style the links inside the navigation bar */
+.links{
+  width:1050px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 20px;
+  min-width: 800px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.card{
+  background-color: #eaeaea;
+  width: 955px;
+  min-height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.5);
+}
+
+h1{
+  font-family: Algerian;
+  font-size: 40px;
+}
+
+h2{
+  font-family: Arial;
+  font-size: 22.0pt;
+  text-align: center;
+
+}
+h3{
+  font-family: Verdana;
+  font-size: 18.0pt;
+}
+
+h4{
+  font-family: Consolas;
+  font-size: 16.0pt;
+
+}
+h5{
+  font-family: Consolas;
+  font-size: 14.0pt;
+}
+h6{
+  font-family: Consolas;
+  font-size: 12.0pt;
+}
+
+p{
+  font-size: 12.5pt;
+  font-family: times;
+  line-height: 20.0pt;
+  text-align: justify;
+}
+
+.header{
+  margin-top: -20px;
+  margin-left: -40px;
+  margin-right: -40px;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto;
+  background-color: black;
+  height:110px;
+
+}
+
+.inside_header{
+  margin-left: 200px;
+  min-width:600px;
+  background-color: black;
+
+}
+
+.logo{
+  vertical-align: middle;
+}
+
+.logo h1{
+  color: white;
+  vertical-align: middle;
+  font-family: ALGERIAN;
+  font-size: 30px;
+  padding:10px;
+  font-weight: 200;
+
+
+}
+
+.CDU{
+  width:200px;
+  height:110px;
+  position: absolute;
+}
+
+
+
+/* Card CSS*/
+.card .row1 .img{
+  max-height:250px;
+}
+
+.card .row2 .img{
+  max-height: :250px;
+}
+.card .row1{
+  padding: 10px;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.card .row2{
+  padding: 10px;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor:pointer;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 8px;
+  padding-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #f44336;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    max-width: 400px;
+    background:#fff;
+    text-align: center;
+    font-size:30px;
+    font-family: sans-serif;
+    padding:10px;
+}
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.4s;
+  max-width: 400px;
+  background:#fff;
+  text-align: center;
+  font-size:30px;
+  font-family: sans-serif;
+  padding:10px;
+}
+
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    max-width: 400px;
+    background:#fff;
+    text-align: center;
+    font-size:30px;
+    font-family: sans-serif;
+    padding:10px;
+}
+.card3 h1{
+  font-size: 30px;
+}
+.container{
+  padding: 2px 16px
+}
+.card1:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.card2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.card3:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.secondpage {
+  width:650px;
+}
+.secondpage p,h4,h5,h6 {
+  padding-left: 20px;
+}
