@@ -33,7 +33,6 @@
 
 .card{
   background-color: #eaeaea;
-  min-height: 850px;
   margin-left: auto;
   margin-right: auto;
   padding:20px;
@@ -79,7 +78,7 @@ p{
 
   overflow: hidden;
   background-color: black;
-  height:110px;
+  min-height: 110px;
 
 }
 
@@ -87,7 +86,7 @@ p{
   position: absolute;
   left:120px;
   right: 10px;
-  height: 110px;
+  min-height: 110px;
 
   background-color: black;
   overflow: hidden;
@@ -160,7 +159,9 @@ p{
 .button:hover {
   background-color: #f44336;
 }
-
+.card h2{
+  margin-top: 60px;
+}
 .secondpage{
   margin-top: 300px;
 }
