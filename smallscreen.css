@@ -162,6 +162,8 @@ p{
 .card h2{
   margin-top: 60px;
 }
-.secondpage{
-  margin-top: 300px;
+
+.secondpage img{
+  max-width: 100%
+
 }

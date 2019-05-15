@@ -1,31 +1,34 @@
 .sidenav {
-  display: grid;
-  grid-template-columns: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
   background-color: black;
-  overflow: hidden;
-  padding-top:30px;
-  padding-bottom: 30px;
-  float: left;
-  margin-top: 10px;
+  padding-top: 20px;
 }
 
 
 .sidenav a{
-  padding: 8px 8px 8px 8px;
+  padding: 16px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
   display: block;
+  border: none;
+  background: none;
+  width:250px;
   text-align: center;
   cursor: pointer;
   outline: none;
 }
-.dropdown-btn, .buttonheader {
-  padding: 8px 8px 8px 8px;
+.sidenav .dropdown-btn, .buttonheader {
+  padding: 16px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
   display: block;
+  border: none;
+  background: none;
+  width:100%;
   text-align: center;
   cursor: pointer;
   outline: none;
@@ -47,16 +50,18 @@
 
 .dropdown-container {
   display: none;
+  padding-left: 8px;
 }
 
 .dropdown-container a{
-  margin-left: 5px;
+  margin-left: 35px;
 }
 
 .arrow-down {
   border-top: 8px solid white;
   margin-top: 7px;
-  float: center;
+  margin-right: 10px;
+  float: left;
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
@@ -69,7 +74,8 @@
 .arrow-down1 {
   border-top: 8px solid white;
   margin-top: 7px;
-  float: center;
+  margin-right: 10px;
+  float: left;
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
@@ -81,7 +87,8 @@
   .arrow-down2 {
     border-top: 8px solid white;
     margin-top: 7px;
-    float: center;
+    margin-right: 10px;
+    float: left;
     width: 0;
     height: 0;
     border-left: 8px solid transparent;
