@@ -1,10 +1,9 @@
 .sidenav {
   display: grid;
-  justify-content: center;
   grid-template-columns: auto;
   background-color: black;
   overflow: hidden;
-  padding: 50px;
+  padding:30px;
   float: left;
 }
 
@@ -28,7 +27,6 @@
   text-align: center;
   cursor: pointer;
   outline: none;
-  border:2px solid white;
 }
 
 
