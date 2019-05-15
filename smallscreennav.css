@@ -3,7 +3,8 @@
   margin-right: auto;
   width: auto;
   background-color: black;
-  padding-top: 20px;
+  padding: 20px;
+
 }
 
 
@@ -53,9 +54,7 @@
   padding-left: 8px;
 }
 
-.dropdown-container a{
-  margin-left: 35px;
-}
+
 
 .arrow-down {
   border-top: 8px solid white;
