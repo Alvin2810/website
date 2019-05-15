@@ -87,7 +87,7 @@ p{
   position: absolute;
   left:120px;
   right: 10px;
-  max-height: 125px;
+  height: 110px;
 
   background-color: black;
   overflow: hidden;
